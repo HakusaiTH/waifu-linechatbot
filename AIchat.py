@@ -1,9 +1,9 @@
 from characterai import PyCAI
 from googletrans import Translator
 
-client = PyCAI("1b01c1086980a7ac4ccba7d0bfed5e67087c791d")
+client = PyCAI("...")
 
-char = "Wqcpqfh-x_oWqHJJFi4noysofgpDs1zaJAPnle2vII0"
+char = "..."
 
 chat = client.chat.get_chat(char)
 
