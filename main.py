@@ -18,7 +18,7 @@ def webhook():
             print(message)
 
             reply_message_text = callAI(message)    
-            reply_message(reply_token, reply_message_text, 'kXG3Al9bf81+wGV7cR86cl9xq/XAcTbbKG8qzRoW/RkXEYsXOzgBZnCS9wot/2n7M2s3D0LfBeE/NDA3H95zlvqKnhuDrgr9HFJBpGdehHhsojYqhMchCCNo+HiB/YbnWD2/rUfZ24QOUJqEUXSbXQdB04t89/1O/w1cDnyilFU=')  # ใส่ Channel access token
+            reply_message(reply_token, reply_message_text, '')  # ใส่ Channel access token
             return request.json, 200
         else:
             # Handle the case where 'message' key is missing
